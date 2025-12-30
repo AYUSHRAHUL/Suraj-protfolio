@@ -8,9 +8,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Project from "./components/Project/Project";
 import Skills from "./components/Skills/Skills";
 import ScrollToTopButton from "./components/ScrollToTopButton/ScrollToTopButton";
-import CodingProfilesSection from "./components/CodingProfiles/CodingProfiles";
-import Experience from "./components/Experience/Experience";
-import Form from "./components/Form/Form"
+ import Experience from "./components/Experience/Experience";
+ 
 import TapeSection from "./components/Tape/TapeSection";
 import BackgroundParticles from "./components/BackgroundEffect/BackgroundParticles";
 import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
@@ -35,13 +34,13 @@ function App() {
       <AboutMe />
       <Education />
       <Skills />
-      <TapeSection />
-      <Experience />
+      {/* <TapeSection /> */}
+      {/* <Experience /> */}
       <Project />
-      <Achievement />
+      {/* <Achievement /> */}
       <Certificate/>
-      <CodingProfilesSection />
-      <Form />
+      {/* <CodingProfilesSection /> */}
+      {/* <Form /> */}
       <Contact />
       <ScrollToTopButton />
     </>

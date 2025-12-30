@@ -18,14 +18,14 @@ const AboutMe = () => {
             <i className="fa-regular fa-user"></i> About Me
           </h1>
           <p>
-            Hi, I'm <b style={{ color: '#4a90e2', fontSize: "1.2em" }}>Ayush Kumar Singh</b>.
-            I'm a web developer with a passion for
-            creating dynamic and responsive web applications. With a strong
-            background in the MERN stack and a keen eye for design, I enjoy
-            bringing ideas to life in the browser. My journey in web development
-            started with a curiosity for how websites are built, and it has
-            evolved into a fulfilling career where I get to solve interesting
-            problems every day.
+            Hi, I'm <b style={{ color: '#4a90e2', fontSize: "1.2em" }}>Suraj Dev Kumar</b>.
+            I'm a Passionate  about Embedded Systems and Cloud Technology Engineer with hands-on training
+from Cranes Varsity. Proficient in microcontroller programming (LPC1768), sensor
+interfacing, and real-time embedded applications. Skilled in Embedded C, Verilog HDL,
+IoT, UART/I2C/SPI protocols, PWM, timers, and debugging techniques. Experienced in
+automation, smart systems, and monitoring solutions. On the cloud side, experienced in
+building and deploying real-time dashboards, IoT-based systems, and applications using
+AWS, REST APIs, and GitHub.  
           </p>
         </motion.div>
              <TechGlobe />

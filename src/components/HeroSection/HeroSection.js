@@ -4,7 +4,7 @@ import "./HeroSectionCSS.css";
 import { motion } from "framer-motion";
 // import TechGlobe from "../TechGlobe/TechGlobe"
 import  resume from "../../images/resume.pdf"
-import profileImage from "../../images/ayush.png";
+import profileImage from "../../images/suraj.jpg";
 
 
 // Typing effect component
@@ -73,7 +73,7 @@ const HeroSection = () => {
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
             transition={{ duration: 1, type: "spring", stiffness: 100 }}
           >
-            <TypingEffect text="Hi, I'm Ayush Kumar Singh." speed={200} loop={true} />
+            <TypingEffect text="Hi, I'm Suraj Dev Kumar." speed={200} loop={true} />
           </motion.h1>
 
           <motion.h1
@@ -81,16 +81,10 @@ const HeroSection = () => {
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
             transition={{ duration: 1.2, type: "spring", stiffness: 100 }}
           >
-            I am FullStack Developer
+            I am Embedded Systems & Cloud Technology Engineer.
           </motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: isInView ? 1 : 0 }}
-            transition={{ duration: 1.5 }}
-          >
-            I build things for the WEB.
-          </motion.p>
+         
 
           <motion.div
             className="hero-buttons"
@@ -106,9 +100,7 @@ const HeroSection = () => {
             >
               My Resume
             </a>
-            <a href="220101130056@cutm.ac.in" className="contact-link shine-button">
-              Mail Me
-            </a>
+           
           </motion.div>
         </div>
 

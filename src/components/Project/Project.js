@@ -2,52 +2,32 @@ import React from "react";
 import "./ProjectCSS.css";
 import Projectitem from "./Projectitem";
 
-import cutm_result_portal from "../../images/projectImages/cutm_result_portal.png";
-import job_khojo from "../../images/projectImages/job_khojo.png";
+import cutm_result_portal from "../../images/projectImages/2.png";
+import job_khojo from "../../images/projectImages/1.png";
 import exam_portal from "../../images/projectImages/exam_portal.png";
 
 const Project = () => {
   const projectData = [
     {
-      sourceCodeLink: "https://github.com/AYUSHRAHUL/cutm-result-portal",
-      deployedLink: "https://result-rust.vercel.app/",
-      name: "CUTM Result Portal",
+       
+      name: "Intelligent Weather Dashboard",
       description:
-        "The CUTM Result & Backlog Portal provides students with a simple and reliable way to check their academic results and track backlog status. With a clean interface and smooth navigation, it ensures hassle-free access to important academic information.",
-      languages: "JavaScript | Flask | HTML | CSS | MongoDB | Mongoose  | REST API | Bootstrap | Tailwind CSS | Git & GitHub | Postman | JWT Authentication | Docker | Vercel",
-      image: cutm_result_portal,
-      projectType: "Result and backlog Management System",
+        "A cloud-based web application that provides real-time weather updates, live city search, and 5-day forecasts with visual charts. Built using React.js (Vite) and integrated with OpenWeatherMap APIs for weather and air quality data. Features an AI-powered travel assistant (OpenAI API) that offers smart travel advice, safety alerts, and packing suggestions. Deployed globally on AWS Amplify/S3 with version control managed via GitHub.",
+languages: " Cloud| Cloud Computing |API |React.js| Internet Integration"
+,      image: cutm_result_portal,
+      
     },
     {
-      sourceCodeLink: "https://github.com/AYUSHRAHUL/job-khojo-nextjs",
-      deployedLink: "https://job-khojo-nextjs.vercel.app/",
-      name: "Job-Khojo",
+     
+      name: " Smart IoT-Based RFID Attendance System",
       description:
-      "Job-khojo is an innovative platform designed to bridge the gap between job seekers and employers, making the recruitment process more efficient, transparent, and engaging. It provides a single, user-friendly interface where candidates can showcase their skills and achievements, while employers can discover, evaluate, and connect with the right talent.",
-      languages: "Nextjs |  MongoDB | Mongoose | React Router | JWT | Bcrypt | MERN Stack",
+      "Smart IoT-Based RFID Attendance System – Designed and developed an automated attendance system using NodeMCU and RFID RC522. Integrated hardware with a PHP–MySQL web dashboard (XAMPP) to display real-time attendance data, including user details, time-in, and time-out. Implemented login/logout and attendance modules, ensuring accurate and reliable tracking through effective hardware–software integration.",
+      languages: " Embedded Systems |Proteus |Arduino| Arduino UNO |Protocols| GPS| RTC| Sensors |Testing Debugging",
+ 
       image: job_khojo,
-      projectType: "Real-Time Hiring Platform",
-    },
-    {
-      sourceCodeLink: "https://github.com/AYUSHRAHUL/exam-portal",
-      deployedLink: "https://exam-portal-nine-liart.vercel.app/",
-      name: "Exam Portal",
-      description:
-        "The Exam Portal is a web-based platform that provides students with an interactive and efficient way to access all exam-related information. It ensures smooth navigation and clear visibility of schedules, results, and academic progress.",
-      languages: "Next.js | JavaScript | TypeScript | HTML | CSS | Tailwind CSS | React.js | Node.js | Express.js | MongoDB | REST API | Git & GitHub | Firebase | Vercel | Postman | MERN Stack",
-      image: exam_portal,
-      projectType: "Advanced Exam Portal",
-    },
-    // {
-    //   sourceCodeLink: "https://github.com/Saini-Yogesh/E-Commerce-Store",
-    //   deployedLink: "https://github.com/Saini-Yogesh/E-Commerce-Store",
-    //   name: "E-Commerce-Store",
-    //   description:
-    //     "E-Commerce Website is a modern shopping platform built with React, Node.js, Express.js, and MongoDB. It features user authentication, product browsing, shopping cart, secure payments (PayPal/Stripe), and an admin dashboard for managing inventory and orders. With a responsive design and seamless experience, it ensures smooth transactions.",
-    //   languages: "React JS | Redux | Redux Toolkit | Node.js | Express.js | MongoDB | Mongoose | React Router | JWT | Bcrypt | Tailwind CSS | MERN Stack",
-    //   image: eCommerceStore,
-    //   projectType: "MERN-Based E-Commerce Platform",
-    // },
+      
+    } 
+     
   ];
 
   return (

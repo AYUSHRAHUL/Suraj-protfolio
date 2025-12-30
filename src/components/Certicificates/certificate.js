@@ -1,36 +1,36 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./certificate.css";
-import geeksforgeeks from "../../images/certificate/geeksforgeeks.jpeg";
-import java from "../../images/certificate/java.jpeg"
-import AI from "../../images/certificate/generative ai studio.png"
-import machine_learning from "../../images/certificate/machine learning.jpeg"
-import sql from "../../images/certificate/sql.jpeg"
+import geeksforgeeks from "../../images/certificate/1.png";
+import java from "../../images/certificate/2.png"
+import AI from "../../images/certificate/3.png"
+import machine_learning from "../../images/certificate/4.png"
+import sql from "../../images/certificate/5.png"
 
 
 const certificates = [
   {
-    title: "Programing in Java (NPTEL)",
+    title: "Volunteer Award ",
     image: java,
     link: java,
   },
   {
-    title: "160 Day Problem Solving (GeeksforGeeks)",
+    title: "Precision Agriculture ",
     image: geeksforgeeks,
     link: geeksforgeeks,
   },
   // Add more certificates here...
    {
-    title: "Introduction to Generative AI Studio",
+    title: "Full custom IC design using CADENCE tool",
     image: AI,
     link: AI,
   },
   {
-    title: "Introduction to Machine Learning (NPTEL)",
+    title: "Cranes varsity certificate",
     image: machine_learning,
     link: machine_learning,
   }, {
-    title: "SQL(HACKER RANK)",
+    title: "maven Silicon",
     image: sql,
     link: sql,
   },

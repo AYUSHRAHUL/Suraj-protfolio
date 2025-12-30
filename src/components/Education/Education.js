@@ -38,12 +38,12 @@ const Education = () => {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
       >
         <div className="education-row">
-          <span className="institute">RamKrishna Dwarika College </span>
-          <span className="location"> Patna, India</span>
+          <span className="institute">A.N.D College  </span>
+          <span className="location"> Shahpur Patory , India</span>
         </div>
         <div className="education-row">
           <span className="degree">12th Grade</span>
-          <span className="year">Intermediate – 55 %, May 2022</span>
+          <span className="year">Intermediate – 73 %, May 2022</span>
         </div>
       </motion.div>
 
@@ -54,12 +54,12 @@ const Education = () => {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
       >
         <div className="education-row">
-          <span className="institute">Camford Public School</span>
-          <span className="location">kurthoul, patna, India</span>
+          <span className="institute">St. Mary’s Public School </span>
+          <span className="location"> Shahpur Patory India</span>
         </div>
         <div className="education-row">
           <span className="degree">10th Grade</span>
-          <span className="year">High School – 63.8%, May 2020</span>
+          <span className="year">High School – 78.2%, May 2020</span>
         </div>
       </motion.div>
     </div>
